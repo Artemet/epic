@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "OpenSans";
+    // адрес шрифта и тип
+    src: url("/fonts/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "BrutalType";
+    // адрес шрифта и тип
+    src: url("/fonts/BrutalType.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@import "home";
+@import "elements";
+@import "page";
+body{
+    margin: 0;
+    background-color: rgb(18, 18, 18);
+    .content{
+        font-family: "BrutalType";
+        padding: 0 189px;
+    }
+    .other_style_content{
+        background-color: rgb(255, 255, 255);
+    }
+}
